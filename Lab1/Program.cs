@@ -47,10 +47,6 @@ public class Lab1
                             IList<string> bubble = bubbleSortArray(readFile());
                             timer.Stop();
                             Console.WriteLine($"Elapsed time: {timer.ElapsedMilliseconds} ms");
-                            foreach (string word in bubble)
-                            {
-                                Console.WriteLine($"{word}");
-                            }
                         }
                         else { Console.WriteLine("Please Load words first!!!"); }
                             break;
@@ -62,10 +58,6 @@ public class Lab1
                             IList<string> linkSort= LINQSort(readFile());  
                             timer2.Stop();
                             Console.WriteLine($"Elapsed time: {timer2.ElapsedMilliseconds} ms");
-                            foreach (string word in linkSort)
-                            {
-                                Console.WriteLine($"{word}");
-                            }
                         }
                         else { Console.WriteLine("Please Load words first!!!"); }
                             break;
