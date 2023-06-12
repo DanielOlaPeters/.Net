@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title </title>
+            <link href="~/css/StyleSheet.css" rel="stylesheet" />
+ 
+</head>
+<body>
+    <header>  
+            <h2> Welcome to Lab3</h2>
+        <h3>My name is: Daniel Ola-Peters</h3>
+    <br>
+        @Html.ActionLink("Home", "Index", "Home")
+        @Html.ActionLink("Show the song!", "SongForm", "Home")
+        @Html.ActionLink("Students", "CreateStudent", "Home")
+        </header>
+    <div class = "content">
+        @RenderBody()
+    </div>
+</body>
+  <footer>
+          <p>Layout is used to hold overall layout structure and elements so it can be used by views.</p> 
+          <p>Css stored in root to be easily access by the clients browser and Layout stored in shared because multiple views can share the same layout.</p>
+        </footer>
+</html>

@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+         Layout = "_Layout";
+    ViewData["Title"] = "Song";
+}
+
+<form asp-controller="Home" asp-action="Sing" method="post">
+    <table>
+        <tr>
+            <td>
+                Enter the number of monkeys between 50 and 100: 
+            </td>
+            <td>
+                <input type="number" id="sing" name="num" min="50" max = "100" step="1"  />
+                
+            <button type="submit">Sing!</button>
+            </td>
+        </tr>
+            </table>
+</form>

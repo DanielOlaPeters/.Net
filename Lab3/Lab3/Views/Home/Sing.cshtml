@@ -1,0 +1,48 @@
+﻿    
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Singing...";
+    var count = ViewBag.count;
+ }
+<button onclick="window.location.href = '/Home/SongForm';"><strong>Play again</strong></button>
+
+                @for (int i = count; i >= 0; i--)
+                {
+    @if (i == 1)
+    {
+        <p>One little monkey jumping on the bed</p>
+        <p>He fell off and bumped his head</p>
+    }
+    else if (i == 0)
+    {
+        <p>No little monkeys jumping on the bed</p>
+        <p>None fell off and bumped her head</p>
+    }
+    else
+    {
+        <p>@i little monkeys jumping on the bed</p>
+
+        if (i % 2 == 0)
+        {
+            <p>One fell off and bumped her head</p>
+        }
+        else
+        {
+            <p>One fell off and bumped his head</p>;          
+        }
+    }
+    <p>Mama called the doctor and the doctor said</p>
+     if (i == 0)
+      {
+       <p>"Put those monkeys back in bed!"</p>
+        }
+       else
+         {
+        <p>"No more monkeys jumping on the bed!"</p>
+         }
+        <br>;
+         }
+  
+
+
+
