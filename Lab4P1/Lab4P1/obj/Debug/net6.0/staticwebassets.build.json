@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "P7h69PiIq62tcdMWtIRp+TpFF5osEl2FHnRPzKW3t18=",
+  "Source": "Lab4P1",
+  "BasePath": "_content/Lab4P1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab4P1\\wwwroot",
+      "Source": "Lab4P1",
+      "ContentRoot": "C:\\Users\\peter\\source\\repos\\Lab4P1\\Lab4P1\\wwwroot\\",
+      "BasePath": "_content/Lab4P1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\peter\\source\\repos\\Lab4P1\\Lab4P1\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "Lab4P1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\peter\\source\\repos\\Lab4P1\\Lab4P1\\wwwroot\\",
+      "BasePath": "_content/Lab4P1",
+      "RelativePath": "css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\peter\\source\\repos\\Lab4P1\\Lab4P1\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "Lab4P1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\peter\\source\\repos\\Lab4P1\\Lab4P1\\wwwroot\\",
+      "BasePath": "_content/Lab4P1",
+      "RelativePath": "css/StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
+    }
+  ]
+}
